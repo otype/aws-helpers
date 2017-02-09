@@ -1,0 +1,4 @@
+#!/bin/bash
+
+CWD=`dirname $0`
+${CWD}/../src/aws-instances.py
