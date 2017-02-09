@@ -5,7 +5,7 @@ Set of neat little AWS helper scripts.
 
 You can easily list your AWS EC2 instances with `aws-instances`.
 
-Preqrequisites:
+Prerequisites:
 - Python 2.7 or higher
 - [awsudo](https://github.com/makethunder/awsudo) installed
 - AWS configuration
