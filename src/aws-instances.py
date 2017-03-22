@@ -18,7 +18,7 @@ def columns_layout(extended=False):
     if extended:
         return "{0: <15} {1: <16} {2: <16} {3: <50} {4: <45} {5: <15} {6}"
     else:
-        return "{0: <16} {1: <17} {2: <42} {3: <10} {4}"
+        return "{0: <17} {1: <42} {2: <10} {3}"
 
 def header(extended=False):
     if extended:
@@ -33,7 +33,6 @@ def header(extended=False):
         )
     else:
         return columns_layout(extended).format(
-            'PublicIpAddress',
             'PrivateIpAddress',
             'PrivateDnsName',
             'State',
@@ -71,7 +70,6 @@ def to_table(extended=False):
                 ))
             else:
                 nodes.append(columns_layout(extended).format(
-                    public_ip_address,
                     private_ip_address,
                     private_dns_name,
                     instances['State']['Name'],
