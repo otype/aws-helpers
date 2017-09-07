@@ -9,6 +9,7 @@ You can easily list your AWS EC2 instances with `aws-instances`.
 
 - Python 2.7 or higher
 - [awsudo](https://github.com/makethunder/awsudo) installed
+- `awscli` installed (`brew install awscli`)
 - AWS configuration
 
 ### Installation

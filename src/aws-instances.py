@@ -99,6 +99,7 @@ except ValueError as ve:
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-e','--extended', help='Extended output', action='store_const', const=True)
+parser.add_argument('-d','--debug', help='Prutput', action='store_const', const=True)
 args = parser.parse_args()
 
 for line in to_table(args.extended == True):
