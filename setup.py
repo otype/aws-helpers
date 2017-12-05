@@ -6,5 +6,5 @@ setup(
     author='Hans-Gunther Schmidt',
     author_email='hans@otype.de',
     version='0.1',
-    scripts=['aws-instances']
+    scripts=['bin/aws-instances']
  )
