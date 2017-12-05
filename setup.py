@@ -6,6 +6,6 @@ setup(
     author='Hans-Gunther Schmidt',
     author_email='hans@otype.de',
     version='0.1',
-    install_requires=['awscli', 'boto'],
+    install_requires=['awscli==1.12.2'],
     scripts=['src/aws-instances', 'src/aws-instances.py']
  )
