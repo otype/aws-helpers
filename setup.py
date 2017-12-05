@@ -8,7 +8,7 @@ setup(
     version='0.1',
     install_requires=['awscli', 'boto'],
     dependency_links=[
-        "git+ssh://git@github.com/makethunder/awsudo.git"
+        "git+https://github.com/makethunder/awsudo.git"
     ],
     scripts=['src/aws-instances', 'src/aws-instances.py']
  )
