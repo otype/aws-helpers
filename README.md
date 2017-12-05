@@ -1,24 +1,29 @@
 # aws-helpers
 Set of neat little AWS helper scripts.
 
-## aws-instances
-
-You can easily list your AWS EC2 instances with `aws-instances`.
-
 ### Prerequisites
 
 - Python 2.7 or higher
 - [awsudo](https://github.com/makethunder/awsudo) installed
-- `awscli` installed (`brew install awscli`)
-- AWS configuration
+- a working AWS configuration in `$HOME/.aws/**`
 
 ### Installation
 
-1. Clone this repository.
-2. Symlink `<aws-helpers-repo>/bin/aws-instances` to your `~/bin` directory (or any other directory that is in your `$PATH`).
-3. Run `awsudo -u <your_aws_user> ~/bin/aws-instances`
+Easily done through `pip`:
 
-### Using `aws-instances`
+```bash
+$ pip install --user git+https://github.com/otype/aws-helpers
+```
+
+## Helper scripts
+
+Following helper scripts are available:
+
+### aws-instances
+
+You can easily list your AWS EC2 instances with `aws-instances`.
+
+#### Using `aws-instances`
 
 Run `aws-instances`:
 ```bash

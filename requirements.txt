@@ -1,1 +1,7 @@
-boto==2.47.0
+# Through Github
+-e git://github.com/makethunder/awsudo.git#egg=awsudo
+
+# Direct dependencies
+boto==2.48.0
+awscli==1.14.3
+
