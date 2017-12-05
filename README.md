@@ -4,7 +4,7 @@ Set of neat little AWS helper scripts.
 ### Prerequisites
 
 - Python 2.7 or higher
-- [awsudo](https://github.com/makethunder/awsudo) installed
+- [awsudo](https://github.com/makethunder/awsudo) installed and configured
 - a working AWS configuration in `$HOME/.aws/**`
 
 ### Installation

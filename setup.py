@@ -7,6 +7,5 @@ setup(
     author_email='hans@otype.de',
     version='0.1',
     install_requires=['awscli', 'boto'],
-    dependency_links=['https://github.com/makethunder/awsudo/tarball/master'],
     scripts=['src/aws-instances', 'src/aws-instances.py']
  )
