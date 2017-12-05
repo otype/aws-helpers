@@ -6,4 +6,4 @@ else
     DIR=$0
 fi
 CWD=$(dirname $DIR)
-${CWD}/../src/aws-instances.py $*
+${CWD}/aws-instances.py $*
